@@ -42,7 +42,7 @@ export default styled.div`
             right: 0px;
             top: 20px;
             width: 50px;
-            color: white;
+            color: rgb(209,167,181);
             margin: 5px;
         }
 
