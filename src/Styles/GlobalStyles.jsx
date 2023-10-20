@@ -11,8 +11,11 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        min-height: 100vh;
         font-family: "segoe UI";
         margin: 0;
+        background-repeat: no-repeat;
+        color: rgb(209,167,181);
     }
 
     #root >div {
@@ -22,10 +25,10 @@ const GlobalStyle = createGlobalStyle`
     }
 
     main {
-        max-width: 1500px;
-        width: 100%;
-        margin: 0 auto;
-        padding: 10px;
+        
+        min-height: 90vh;
+        background-color: #1c0924;
+        background-image: linear-gradient(43deg, #1c0924 24%, #2e0e3b 58%, #1c0924 91%);
     }
 
     section {
@@ -43,21 +46,21 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1 {
-        font-size: min(6vmin, calc(2rem + 0.23vmax));
+        font-size: min(6vmin, calc(2.5rem + 0.23vmax));
         text-align: center;
     }
 
     h2 {
-        font-size: min(6vmin, calc(1.4rem + 0.23vmax));
+        font-size: min(6vmin, calc(2rem + 0.23vmax));
         font-weight: 600;
     }
 
     h3 {
-        font-size: min(6vmin, calc(1rem + 0.23vmax));
+        font-size: min(6vmin, calc(1.5rem + 0.23vmax));
     }
 
-    p, label {
-        font-size: min(6vmin, calc(0.8rem + 0.23vmax));
+    p {
+        font-size: min(6vmin, calc(1rem + 0.23vmax));
     }
 
     li::marker {
