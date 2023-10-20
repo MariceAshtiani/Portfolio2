@@ -12,7 +12,9 @@ export default function ProjectPage() {
                     <link rel="stylesheet" href="https://use.typekit.net/kla3ecq.css"></link>
                 </Helmet>
             </HelmetProvider>
-            <div>PROJECTPAGE</div>
+            <main>
+                <h1>Nothing here yet!</h1>
+            </main>
             </>
     )
 }
