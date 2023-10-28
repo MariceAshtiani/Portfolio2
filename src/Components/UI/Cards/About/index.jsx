@@ -10,9 +10,8 @@ export default function AboutCard(){
                     <img src="/Images/Marice.jpg" alt="Image of myself"></img>
                 </div>
                 <div className="about-txt">
-                    <p>Hi, My name is Marice and I am a front end developer living in Norway. After years of working and studying I decided I wanted to try something new and creative, and I landed on front end development. I am a trained hairdresser and have worked as a hairdresser since 2013, I started working as a barber in 2021, and now I'm looking forward to work with front end development. I graduated from Noroff School of Technology and digital media in October 2023, and I'm ready to embrace this new profession!
-                    </p>
-                    <p>On my free time i like to train with my 3 dogs, take long walks in the forest or on the mountain and relax at the family-cabin. My front end journey has just begun, and i can't wait to show you more of my work as i continue to develop myself and my skills!</p>
+                <p>Hi, I'm Marice, a junior front-end developer in Norway. My journey, spanning from hairdressing to veterinary medicine, has instilled in me a unique understanding of aesthetics, precision, and user experience. This diverse background fuels my approach to front-end development. Having graduated from Noroff School of Technology and Digital Media in 2023, I bring a fresh perspective to the tech arena. Each career path I've walked has sharpened my focus on user needs, whether it's a client seeking a new hairstyle or a user navigating a webpage. I'm enthusiastic about translating this rich tapestry of experiences into innovative digital solutions. While my tech portfolio is still growing, I assure you that every project reflects my deep commitment to quality and creativity.</p>
+                <p>On my free time, I cherish training with my dogs, exploring the Norwegian wilderness, and indulging my artistic side with drawings. My journey in front-end development is only beginning, and I'm excited for you to witness its evolution.</p>
                 </div>
             </div>
             <hr />
