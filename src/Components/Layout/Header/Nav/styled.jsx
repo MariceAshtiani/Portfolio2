@@ -52,7 +52,7 @@ export default styled.div`
             align-items: center;
             justify-content: center;
             position: absolute;
-            background-color: rgb(0, 0, 0, 0.8);
+            background-color: rgb(0, 0, 0, 0.95);
             width: 100%;
             height: 100%;
             right: 0;
