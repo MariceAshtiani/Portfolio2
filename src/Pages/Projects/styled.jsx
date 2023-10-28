@@ -79,7 +79,7 @@ export default styled.div`
         }
 
         .card {
-            max-height: 400px; 
+            max-height: 350px; 
         }
 
         .card-txt p{
