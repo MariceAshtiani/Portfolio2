@@ -2,6 +2,7 @@ import { HelmetProvider, Helmet } from "react-helmet-async"
 import StyledHomepage from "./styled";
 import BasicButton from "../../Components/UI/Buttons/styled";
 import { Link } from "react-router-dom";
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 export default function HomePage() {
     return(
@@ -21,6 +22,9 @@ export default function HomePage() {
                         <h1>Marice Ashtiani</h1>
                         <h2>Front End Developer</h2>
                         <h3>Learn more</h3>
+                        <div className="arrow">
+                            <FaAngleDoubleDown/>
+                        </div>
                         <div className="more-btns">
                             <Link to="/projects">
                                 <BasicButton>Projects</BasicButton>

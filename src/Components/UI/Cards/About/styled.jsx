@@ -51,4 +51,22 @@ hr {
             padding: 10px;
         }
     }
+
+    @media (max-width: ${({ theme }) => theme.tablet}) {
+
+        .about-info {
+            flex-direction: column;
+        }
+
+        .about-extra {
+            img {
+                max-width: 200px;
+                width: 100%;
+                max-height: 30px;
+                height: 100%;
+            }
+            .languages, .frameworks, .tools {
+            flex-direction: column;
+        }}
+    }
 `

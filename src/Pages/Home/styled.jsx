@@ -22,6 +22,11 @@ export default styled.div`
             font-size: 2rem;
         }
 
+        .arrow svg{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
         .more-btns {
             display: flex;
             flex-direction: row;
