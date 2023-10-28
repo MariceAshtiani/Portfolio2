@@ -20,7 +20,8 @@ export default styled.div`
         flex-direction: column;
         position: relative;
         max-width: 500px;
-        height: 500px;
+        max-height: 500px;
+        height: 100%;
         width: 100%;
         box-shadow: 0 0 10px rgba(209, 167, 181, 0.453);
         overflow: hidden;
@@ -77,12 +78,21 @@ export default styled.div`
             grid-template: auto auto/ repeat(1, 1fr);
         }
 
+        .card {
+            max-height: 400px; 
+        }
+
         .card-txt p{
             font-size: 1.7vmax;
         }
     }
 
     @media (max-width: ${({ theme }) => theme.mobile}) {
+
+        .card {
+            max-height: 300px; 
+        }
+
 
         .card-txt p, .links a{
             font-size: 1.4vmax;
